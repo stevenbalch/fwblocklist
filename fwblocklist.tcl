@@ -14,7 +14,7 @@ puts "Starting FW Blocklist Process"
 puts ""
 puts "Enabling DoS mitigation for quota"
 puts ""
-exec sim_dos ctl a 1 -m 0 -x 0 -l 100
+exec sim_dos ctl -a 1 -m 0 -x 0 -l 100
 
 set url [lindex $argv 0]
 #-----------------------------------------
