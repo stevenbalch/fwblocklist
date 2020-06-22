@@ -1,4 +1,4 @@
-# fwblocklist.tcl
+# fwblocklist
 Check Point utility to dynamically block a source based IP address list hosted on a remote webserver.
 
 ## Supported Sites:
